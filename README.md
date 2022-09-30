@@ -1,1 +1,1 @@
-# terraform-google-compute-health-check
+# terraform-google_compute_health_check
