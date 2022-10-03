@@ -18,10 +18,8 @@ variable "host" {
 variable "enable_http_health_check" {
   type        = bool
   description = "Enable the HTTP health check to be used"
-  default     = true
 }
 variable "enable_https_health_check" {
   type        = bool
   description = "Enable the HTTPS health check to be used"
-  default     = true
 }
