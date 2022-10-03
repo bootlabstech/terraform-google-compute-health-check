@@ -5,6 +5,7 @@ variable "name" {
 variable "request_path" {
   type        = string
   description = "The request path of the HTTP and HTTPS health check request"
+  default     = "/"
 }
 variable "project_id" {
   type        = string
@@ -17,10 +18,10 @@ variable "host" {
 variable "enable_http_health_check" {
   type        = bool
   description = "Enable the HTTP health check to be used"
-  default     = false
+  default     = true
 }
 variable "enable_https_health_check" {
   type        = bool
   description = "Enable the HTTPS health check to be used"
-  default     = false
+  default     = true
 }
