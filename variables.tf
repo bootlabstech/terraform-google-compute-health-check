@@ -23,3 +23,14 @@ variable "enable_https_health_check" {
   type        = bool
   description = "Enable the HTTPS health check to be used"
 }
+variable "enable_tcp_health_check" {
+    type=bool
+    description = "enable the tcp health chek to use "
+    #default = false 
+}
+variable "port" {
+  type=number 
+  description = "this is the port number where health check running"
+  #default = 443
+  
+}
